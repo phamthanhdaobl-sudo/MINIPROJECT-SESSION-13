@@ -82,18 +82,5 @@ Ví dụ 500 MB qua mạng 100 Mbps: `500 × 8 / 100 = 40 giây` tối thiểu, 
 - [ ] SRS có Heading Styles và trường mục lục tự động.
 - [ ] `.env` chỉ có giá trị giả và không chứa bí mật thật.
 
-## 9. Đưa lên GitHub
-
-Tên repository theo quy định nộp: `[Ten Lop]_[Mon Hoc]_MiniProject_Infrastructure`.
-
-```bash
-git init
-git add .
-git status
-git commit -m "Initial GreenTech infrastructure mini project"
-git branch -M main
-git remote add origin https://github.com/<username>/<repository>.git
-git push -u origin main
+in
 ```
-
-Trước `git add .`, kiểm tra kỹ `.env` và không đưa bí mật thật lên GitHub.
